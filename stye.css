@@ -63,3 +63,16 @@ input:hover {
   border-color: transparent;
   transform: scale(1.02);
 }
+
+@media only screen and (max-width: 500px) {
+  input {
+    font-size: 10px;
+  }
+  .newtodo {
+    font-size: 20px;
+  }
+
+  .todo {
+    font-size: 15px;
+  }
+}
